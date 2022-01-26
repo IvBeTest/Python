@@ -106,6 +106,7 @@ print(result_m_ceil)
 #  27. Создать переменную result_int и result_division округлить до ближайшего целого через явное приведение.
 
 result_int = int(result_division)
+# result_int = int(result_division + 0.5)
 
 #  28. Вывести result_int в консоль.
 
