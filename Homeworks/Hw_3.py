@@ -156,7 +156,11 @@ if currency_convertor:
 if currency_convertor:
     currency_usd = usd_item
     target_currency = eur_item
-    target_currency_amount = 50
+    # target_currency = uah_item
+    # target_currency = chf_item
+    # target_currency = rub_item
+    # target_currency = byn_item
+    target_currency_amount = 100
     currency_result = 0
     if target_currency == 'eur':
        currency_result = target_currency_amount / usd_eur_rate
